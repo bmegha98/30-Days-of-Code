@@ -29,4 +29,7 @@ Print The total meal cost is totalCost dollars., where totalCost is the rounded 
 * amIOld() should perform the following conditional actions:
 * If age<13, print You are young..
 * If age>=13 and age<18 , print You are a teenager..
-* Otherwise, print You are old..
+* Otherwise, print You are old.
+
+5. Given an integer,n , print its first 10  multiples. Each multiple nxi  (where 1<=i<=10) should be printed on a new line in the 
+form: n x i = result.
