@@ -33,3 +33,5 @@ Print The total meal cost is totalCost dollars., where totalCost is the rounded 
 
 5. Given an integer,n , print its first 10  multiples. Each multiple nxi  (where 1<=i<=10) should be printed on a new line in the 
 form: n x i = result.
+6. Given a string,S , of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as  space-separated
+strings on a single line (see the Sample below for more detail).
