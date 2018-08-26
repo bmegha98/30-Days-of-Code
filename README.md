@@ -35,3 +35,4 @@ Print The total meal cost is totalCost dollars., where totalCost is the rounded 
 form: n x i = result.
 6. Given a string,S , of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as  space-separated
 strings on a single line (see the Sample below for more detail).
+7. Given an array,A , of N integers, print A's elements in reverse order as a single line of space-separated numbers.
