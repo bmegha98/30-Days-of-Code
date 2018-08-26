@@ -17,3 +17,9 @@ The second line has an integer,tipPercent  (the percentage of mealCost being add
 The third line has an integer, taxPercent (the percentage of mealCost  being added as tax).
 * Output
 Print The total meal cost is totalCost dollars., where totalCost is the rounded integer result of the entire bill ( mealCost with added tax and tip).
+
+3. Given an integer,n , perform the following conditional actions:
+* If n is odd, print Weird
+* If n is even and in the inclusive range of 2 to 5, print Not Weird
+* If n is even and in the inclusive range of 6 to 20, print Weird
+* If n  is even and greater than 20, print Not Weird.
