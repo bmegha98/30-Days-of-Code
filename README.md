@@ -37,4 +37,5 @@ form: n x i = result.
 strings on a single line (see the Sample below for more detail).
 7. Given an array,A , of N integers, print A's elements in reverse order as a single line of space-separated numbers.
 9. Write a factorial function that takes a positive integer,N  as a parameter and prints the result of N! ( factorial).
+10. Given a base-10 integer,n , convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.
 17. Write a Calculator class with a single method: int power(int,int). The power method takes two integers, n and p, as parameters and returns the integer result of n^p. If either  or  is negative, then the method must throw an exception with the message: n and p should be non-negative.
