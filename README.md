@@ -39,4 +39,7 @@ strings on a single line (see the Sample below for more detail).
 9. Write a factorial function that takes a positive integer,N  as a parameter and prints the result of N! ( factorial).
 10. Given a base-10 integer,n , convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.
 17. Write a Calculator class with a single method: int power(int,int). The power method takes two integers, n and p, as parameters and returns the integer result of n^p. If either  or  is negative, then the method must throw an exception with the message: n and p should be non-negative.
-A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string,s , is a palindrome?
+18. A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string,s , is a palindrome?
+19. The AdvancedArithmetic interface and the method declaration for the abstract divisorSum(n) method are provided for you in the 
+editor below.
+Complete the implementation of Calculator class, which implements the AdvancedArithmetic interface. The implementation for the divisorSum(n) method must return the sum of all divisors of n .
