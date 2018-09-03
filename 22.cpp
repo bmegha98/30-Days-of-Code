@@ -41,6 +41,24 @@ class Solution{
             else
         return max(getHeight(root->left),getHeight(root->right))+1;
         }
+    void levelOrder(Node * root)
+    {
+    int height=getHeight(root);
+    for(int i=0;i<=height;i++)
+        printlevelOrder(root,i);    
+     }
+void printlevelOrder(Node* root,int level)
+{
+    if(root==NULL)
+        return;
+    if(level==0)
+        cout<<root->data<<" ";
+    else
+    {
+      printlevelOrder(root->left,level-1);
+      printlevelOrder(root->right,level-1);
+    }
+}
         }; 
 
 int main() {
@@ -57,7 +75,7 @@ int main() {
     }
     int height = myTree.getHeight(root);
     cout << height;
-
+   myTree.levelOrder(root);
     return 0;
 }
     
