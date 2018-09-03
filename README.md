@@ -50,3 +50,6 @@ where numSwaps is the number of swaps that took place.
 where firstElement is the first element in the sorted array.
 . Last Element: lastElement 
 where lastElement is the last element in the sorted array.
+21. Write a single generic function named printArray; this function must take an array of generic elements as a parameter (the 
+exception to this is C++, which takes a vector). 
+Your printArray function should print each element of its generic array parameter on a new line.
