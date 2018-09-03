@@ -43,3 +43,10 @@ strings on a single line (see the Sample below for more detail).
 19. The AdvancedArithmetic interface and the method declaration for the abstract divisorSum(n) method are provided for you in the 
 editor below.
 Complete the implementation of Calculator class, which implements the AdvancedArithmetic interface. The implementation for the divisorSum(n) method must return the sum of all divisors of n .
+20. Given an array, a, of size n distinct elements, sort the array in ascending order using the Bubble Sort algorithm above. Once sorted, print the following 3 lines:
+. Array is sorted in numSwaps swaps. 
+where numSwaps is the number of swaps that took place.
+. First Element: firstElement 
+where firstElement is the first element in the sorted array.
+. Last Element: lastElement 
+where lastElement is the last element in the sorted array.
