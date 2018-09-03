@@ -38,6 +38,14 @@ strings on a single line (see the Sample below for more detail).
 7. Given an array,A , of N integers, print A's elements in reverse order as a single line of space-separated numbers.
 9. Write a factorial function that takes a positive integer,N  as a parameter and prints the result of N! ( factorial).
 10. Given a base-10 integer,n , convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.
+12. You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
+Complete the Student class by writing the following:
+*  A Student class constructor, which has  parameters:
+A string,firstName .
+A string,lastName .
+An integer,id .
+An integer array (or vector) of test scores, scores.
+* A char calculate() method that calculates a Student object's average and returns the grade character representative of their          calculated average.
 17. Write a Calculator class with a single method: int power(int,int). The power method takes two integers, n and p, as parameters and returns the integer result of n^p. If either  or  is negative, then the method must throw an exception with the message: n and p should be non-negative.
 18. A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string,s , is a palindrome?
 19. The AdvancedArithmetic interface and the method declaration for the abstract divisorSum(n) method are provided for you in the 
@@ -52,6 +60,6 @@ where firstElement is the first element in the sorted array.
 where lastElement is the last element in the sorted array.
 21. Write a single generic function named printArray; this function must take an array of generic elements as a parameter (the 
 exception to this is C++, which takes a vector). 
-Your printArray function should print each element of its generic array parameter on a new line.
+Your printArray function should print each element of its generic array parameter on a new line. 
 22. The height of a binary search tree is the number of edges between the tree's root and its furthest leaf. You are given a pointer,
 root, pointing to the root of a binary search tree. Complete the getHeight function provided in your editor so that it returns the height of the binary search tree.
