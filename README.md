@@ -63,3 +63,5 @@ exception to this is C++, which takes a vector).
 Your printArray function should print each element of its generic array parameter on a new line. 
 22. The height of a binary search tree is the number of edges between the tree's root and its furthest leaf. You are given a pointer,
 root, pointing to the root of a binary search tree. Complete the getHeight function provided in your editor so that it returns the height of the binary search tree.
+23. A Node class is provided for you in the editor. A Node object has an integer data field, data, and a Node instance pointer,next , pointing to another node (i.e.: the next node in a list).
+A removeDuplicates function is declared in your editor, which takes a pointer to the head node of a linked list as a parameter. Complete removeDuplicates so that it deletes any duplicate nodes from the list and returns the head of the updated list.
