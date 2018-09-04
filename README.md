@@ -65,3 +65,5 @@ Your printArray function should print each element of its generic array paramete
 root, pointing to the root of a binary search tree. Complete the getHeight function provided in your editor so that it returns the height of the binary search tree.
 23. A Node class is provided for you in the editor. A Node object has an integer data field, data, and a Node instance pointer,next , pointing to another node (i.e.: the next node in a list).
 A removeDuplicates function is declared in your editor, which takes a pointer to the head node of a linked list as a parameter. Complete removeDuplicates so that it deletes any duplicate nodes from the list and returns the head of the updated list.
+25. A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself. Given a number,n , determine and print whether it's Prime or Not prime.
+If possible, try to come up with a  primality algorithm,O(sqrt(n)) or see what sort of optimizations you come up with for an O(n)  algorithm. 
