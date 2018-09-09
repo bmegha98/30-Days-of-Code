@@ -84,3 +84,9 @@ The first line contains an integer,N , total number of rows in the table.
 Each of the N subsequent lines contains 2 space-separated strings denoting a person's first name and email ID, respectively.
 * Output Format
 Print an alphabetically-ordered list of first names for every user with a gmail account. Each name must be printed on a new line.
+29. Given set S={1,2,3,....,N} . Find two integers, A and B (where A<B), from set S such that the value of A&B is the maximum possible and also less than a given integer,K . In this case, & represents the bitwise AND operator.
+ * Input Format
+The first line contains an integer, T, the number of test cases. 
+Each of the T subsequent lines defines a test case as 2 space-separated integers, N and K, respectively.
+* Output Format
+For each test case, print the maximum possible value of A&B on a new line.
