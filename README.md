@@ -57,7 +57,7 @@ Price:,a space, and then the current instance's price.
 * A class constructor that takes an array of integers as a parameter and saves it to the elements instance variable.
 * A computeDifference method that finds the maximum absolute difference between any 2 numbers in N and stores it in the maximumDifference instance variable.
 15. Complete the insert function in your editor so that it creates a new Node (pass data as the Node constructor argument) and inserts it at the tail of the linked list referenced by the head parameter. Once the new node is added, return the reference to the head node.
-
+16. Read a string,S, and print its integer value; if S cannot be converted to an integer, print Bad String. You must use the String-to-Integer and exception handling constructs built into your submission language. 
 17. Write a Calculator class with a single method: int power(int,int). The power method takes two integers, n and p, as parameters and returns the integer result of n^p. If either  or  is negative, then the method must throw an exception with the message: n and p should be non-negative.
 18. A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string,s , is a palindrome?
 19. The AdvancedArithmetic interface and the method declaration for the abstract divisorSum(n) method are provided for you in the 
