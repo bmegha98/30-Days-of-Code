@@ -73,3 +73,8 @@ If possible, try to come up with a  primality algorithm,O(sqrt(n)) or see what s
 3. If the book is returned after the expected return month but still within the same calendar year as the expected return date, the 
 fine=500*(Number of months late).
 4.If the book is returned after the calendar year in which it was expected, there is a fixed fine of 10000.
+27. This problem is all about unit testing.
+Your task is to implement 3 classes that will produce test data and the expected results for the testing functions. More specifically: function get_array() in TestDataEmptyArray class and functions get_array() and get_expected_result() in classes TestDataUniqueValues and TestDataExactlyTwoDifferentMinimums following the below specifications:
+* get_array() method in class TestDataEmptyArray has to return an empty array.
+* get_array() method in class TestDataUniqueValues has to return an array of size at least 2 with all unique elements, while method get_expected_result() of this class has to return the expected minimum value index for this array.
+* get_array() method in class TestDataExactlyTwoDifferentMinimums has to return an array where there are exactly two different minimum values, while method get_expected_result() of this class has to return the expected minimum value index for this array.
