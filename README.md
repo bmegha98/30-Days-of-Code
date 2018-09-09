@@ -46,6 +46,14 @@ A string,lastName .
 An integer,id .
 An integer array (or vector) of test scores, scores.
 * A char calculate() method that calculates a Student object's average and returns the grade character representative of their          calculated average.
+13. Given a Book class and a Solution class, write a MyBook class that does the following:
+* Inherits from Book
+* Has a parameterized constructor taking these 3 parameters:string title,string author,int price.
+* Implements the Book class' abstract display() method so it prints these 3 lines:
+Title:,a space, and then the current instance's title.
+Author:,a space, and then the current instance's author.
+Price:,a space, and then the current instance's price.
+
 17. Write a Calculator class with a single method: int power(int,int). The power method takes two integers, n and p, as parameters and returns the integer result of n^p. If either  or  is negative, then the method must throw an exception with the message: n and p should be non-negative.
 18. A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string,s , is a palindrome?
 19. The AdvancedArithmetic interface and the method declaration for the abstract divisorSum(n) method are provided for you in the 
